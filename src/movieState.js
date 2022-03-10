@@ -79,3 +79,5 @@ export const MovieState = () => {
     },
   ];
 };
+
+export default MovieState;
