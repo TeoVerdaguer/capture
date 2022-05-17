@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
-import { useLocation, useRoutes } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { MovieState } from "../movieState";
 // animations
 import { motion } from "framer-motion";
@@ -10,7 +10,7 @@ const MovieDetail = () => {
   const url = useLocation().pathname;
 
   //states
-  const [movies, setMovies] = useState(MovieState);
+  const [movies] = useState(MovieState);
   const [movie, setMovie] = useState(null);
 
   // effects
