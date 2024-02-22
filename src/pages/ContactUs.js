@@ -75,6 +75,7 @@ const Social = styled(motion.div)`
   display: flex;
   align-items: center;
   h2 {
+    font-size: 2rem;
     margin: 2rem;
   }
 `;
